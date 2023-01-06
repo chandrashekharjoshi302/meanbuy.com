@@ -1,13 +1,18 @@
 
 import './App.css';
-import Login from './Components/Login';
 
+import Navbar from './Components/navbar';
+
+import Footer from './Components/footer';
+
+import AllRoutes from './Components/Routes/AllRoutes';
 
 function App() {
   return (
-    <div className="App">
-    
-<Login/>
+    <div className='App'>
+      <Navbar/>
+      <AllRoutes/>
+      <Footer/>
     </div>
   );
 }

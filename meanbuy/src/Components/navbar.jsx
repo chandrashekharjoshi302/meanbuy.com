@@ -35,13 +35,7 @@ const Navbar = () => {
     <div>
         <Box  h="25px" bg="black" color="white"
         
-        zIndex="9"
-      pl={{ base: "5%", md: "", xl: "10%" }}
-      pr={{ base: "5%", md: "", xl: "10%" }}
-      position="sticky"
-      top="0"
-      left="0"
-      boxShadow=" 2px 2px 8px rgba(0,0,0,0.2)"
+      
         >
              <Text ml="20%"  >
              Upto Rs.500 off on Prepaid Purchases use coupon code - PREPAID 
